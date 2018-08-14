@@ -68,6 +68,6 @@ export interface Heroe {
     nombre: string;
     bio: string;
     img: string;
-    aparacion: string;
+    aparicion: string;
     casa: string;
 }
