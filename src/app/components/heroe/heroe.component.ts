@@ -8,6 +8,7 @@ import { HeroesService } from '../../services/heroes.service';
 })
 export class HeroeComponent {
     heroe: any = {};
+    casas: string[] = ['assets/img/marvel-logo.png', 'assets/img/dc-logo.png'];
 
     constructor(private _activatedRoute: ActivatedRoute,
                 private _heroesService: HeroesService
